@@ -1,6 +1,6 @@
 {
   "name": "vuex-action-logger",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Vue plugin to wrap vuex dispatch and log the result",
   "main": "./main.js",
   "repository": {
