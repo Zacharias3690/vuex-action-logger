@@ -3,6 +3,10 @@
   "version": "0.1.0",
   "description": "Vue plugin to wrap vuex dispatch and log the result",
   "main": "main.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Zacharias3690/vuex-action-logger.git"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -13,9 +17,13 @@
     "vue",
     "vue.js"
   ],
-  "author": "Zach Barnes",
+  "author": "Zach Barnes <Zacharias3690@gmail.com>",
   "license": "ISC",
-  "dependencies": {
-    "vuex": "^2.3.1"
+  "dependencies": {},
+  "devDependencies": {
+    "babel-core": "^6.24.1",
+    "babel-loader": "^6.4.1",
+    "babel-preset-env": "^1.4.0",
+    "webpack": "^2.4.1"
   }
 }
