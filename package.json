@@ -2,7 +2,7 @@
   "name": "vuex-action-logger",
   "version": "0.1.2",
   "description": "Vue plugin to wrap vuex dispatch and log the result",
-  "main": "./dist/vuex-action-logger.js",
+  "main": "./main.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/Zacharias3690/vuex-action-logger.git"
