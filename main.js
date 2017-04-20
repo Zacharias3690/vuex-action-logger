@@ -1,8 +1,8 @@
-export default function(Vuex) {
+module.exports = function(Vuex) {
   return {
     install() {
-      let dispatchCalls = [];
-      let temp = Vuex.Store.prototype.dispatch;
+      var dispatchCalls = [];
+      var temp = Vuex.Store.prototype.dispatch;
 
       Vuex.Store.prototype.dispatch = function actionWatcher() {
         dispatchCalls.push(arguments);
@@ -10,11 +10,11 @@ export default function(Vuex) {
       };
 
       // Log on an interval to avoid blocking
-      setInterval(() => {
+      setInterval(function() {
         while(dispatchCalls.length) {
           console.log(dispatchCalls.shift());
         }
       }, 1000);
     }
   }
-}
+};

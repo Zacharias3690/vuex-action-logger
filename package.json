@@ -1,6 +1,6 @@
 {
   "name": "vuex-action-logger",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Vue plugin to wrap vuex dispatch and log the result",
   "main": "./dist/vuex-action-logger.js",
   "repository": {
@@ -19,11 +19,9 @@
   ],
   "author": "Zach Barnes <Zacharias3690@gmail.com>",
   "license": "ISC",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
   "dependencies": {},
-  "devDependencies": {
-    "babel-core": "^6.24.1",
-    "babel-loader": "^6.4.1",
-    "babel-preset-env": "^1.4.0",
-    "webpack": "^2.4.1"
-  }
+  "devDependencies": {}
 }

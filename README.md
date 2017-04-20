@@ -16,5 +16,5 @@ import VuexActionLogger from 'vuex-action-logger');
 
 
 Vue.use(Vuex);
-Vue.use(VuexActionLogger);
+Vue.use(VuexActionLogger(Vuex));
 ```
