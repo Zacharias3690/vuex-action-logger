@@ -12,7 +12,7 @@ npm install vuex-action-logger --save-dev
 ```javascript
 //app.js
 import Vuex from 'vuex';
-import VuexActionLogger from 'vuex-action-logger');
+import VuexActionLogger from 'vuex-action-logger';
 
 
 Vue.use(Vuex);
